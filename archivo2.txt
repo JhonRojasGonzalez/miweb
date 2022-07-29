@@ -1,7 +1,0 @@
-chanchito feliz
-<<<<<<< HEAD
-chanchito triste
-felipe
-=======
-chanchito feliz
->>>>>>> rama1
