@@ -272,8 +272,11 @@ footer {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 426px) {
+    .main {
+        background-color: #fff;
+    }
 
 .subMenu {
-    width: 94%;}
+    width: 95%;}
 }
