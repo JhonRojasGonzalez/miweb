@@ -98,7 +98,7 @@ nav ul li a:hover {
 }
 
 .subMenu {
-    width: 95%;
+    width: 96%;
     text-align: center;
     position: fixed;
     top: 290px;
@@ -270,4 +270,10 @@ footer {
                             "aside aside aside"
                             "footer footer footer";
     }
+}
+
+@media (max-width: 376px) {
+
+.subMenu {
+    width: 94%;}
 }
