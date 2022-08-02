@@ -97,25 +97,28 @@ nav ul li a:hover {
     display: none;
 }
 
+.menuHide label:hover{
+    cursor: pointer;
+}
+
 .subMenu {
     width: 96%;
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 290px;
     background-color: black;
     opacity: 0;
     transition: all 0.3s linear;
 }
 
-.menuHide ul li {
-    padding: 15px 0px;
-}
 
 .subMenu li a {
+    display: block;
+    padding: 20px;
     color: red;
 }
 
-.menuHide ul li:hover {
+.menuHide ul li a:hover{
     cursor: pointer;
     background-color: red;
     color: black;
@@ -270,13 +273,11 @@ footer {
                             "aside aside aside"
                             "footer footer footer";
     }
-}
-
-@media (max-width: 426px) {
+    
     .main {
         background-color: #fff;
     }
 
-.subMenu {
-    width: 95%;}
+    .subMenu {
+    width: 96%;}
 }
